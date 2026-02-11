@@ -1,7 +1,5 @@
 # Windows Fundamentals 1
 
-# Windows Fundamentals 1
-
 ## 💻 Sample Commands / Snippets
 These are **generic, legal commands** you might use to explore Windows systems and security for SOC purposes.  
 *(No lab-specific outputs or flags are included to maintain TryHackMe learning integrity.)*
