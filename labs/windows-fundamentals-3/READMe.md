@@ -1,3 +1,4 @@
+# Windows Fundamentals 3
 
 ## 💻 Sample Commands / Snippets
 These are **generic, legal commands** for exploring Windows security and system monitoring.  
@@ -18,8 +19,6 @@ Get-HotFix
 
 # Monitor system performance
 Get-Process | Sort-Object CPU -Descending
-
-# Windows Fundamentals 3
 ```
 
 ## 📝 Overview
