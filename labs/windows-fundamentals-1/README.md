@@ -1,5 +1,28 @@
 # Windows Fundamentals 1
 
+# Windows Fundamentals 1
+
+## 💻 Sample Commands / Snippets
+These are **generic, legal commands** you might use to explore Windows systems and security for SOC purposes.  
+*(No lab-specific outputs or flags are included to maintain TryHackMe learning integrity.)*
+
+```powershell
+# List running processes
+Get-Process
+
+# Check system information
+systeminfo
+
+# List local users
+Get-LocalUser
+
+# View group membership
+Get-LocalGroupMember -Group "Administrators"
+
+# Check network configuration
+ipconfig /all
+```
+
 ## 📝 Overview
 **Windows Fundamentals 1** introduces the basics of the Windows operating system and its security features.  
 Learners get hands-on access to Windows environments, exploring the desktop, **NTFS file system, User Account Control (UAC), Control Panel**, and core OS settings.  
