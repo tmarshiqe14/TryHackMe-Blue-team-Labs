@@ -1,4 +1,26 @@
+
+## 💻 Sample Commands / Snippets
+These are **generic, legal commands** for exploring Windows security and system monitoring.  
+*(No lab-specific outputs or flags included to maintain TryHackMe learning integrity.)*
+
+```powershell
+# Check Windows Update status
+Get-WindowsUpdateLog
+
+# View BitLocker status
+Get-BitLockerVolume
+
+# Check Windows Security settings
+Get-MpPreference
+
+# List installed Windows updates
+Get-HotFix
+
+# Monitor system performance
+Get-Process | Sort-Object CPU -Descending
+
 # Windows Fundamentals 3
+```
 
 ## 📝 Overview
 **Windows Fundamentals 3** focuses on **built-in security tools and endpoint protection features** in Windows.  
