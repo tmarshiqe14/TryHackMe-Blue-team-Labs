@@ -1,5 +1,27 @@
 # Windows Fundamentals 2
 
+
+## 💻 Sample Commands / Snippets
+These are **generic, legal commands** for exploring Windows systems and security monitoring.  
+*(No lab-specific outputs or flags included to maintain TryHackMe learning integrity.)*
+
+```powershell
+# Check running services
+Get-Service
+
+# View scheduled tasks
+Get-ScheduledTask
+
+# Examine system event logs
+Get-EventLog -LogName Security -Newest 20
+
+# List startup programs
+Get-CimInstance Win32_StartupCommand
+
+# Display network configuration
+ipconfig /all
+```
+
 ## 📝 Overview
 **Windows Fundamentals 2** builds on Part 1 and dives deeper into **system configuration, resource monitoring, and security settings**.  
 This room emphasizes how to analyze and understand the Windows operating system from a **blue team perspective**, preparing learners for endpoint monitoring and incident response.
