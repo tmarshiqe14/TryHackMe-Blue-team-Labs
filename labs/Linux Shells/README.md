@@ -33,6 +33,10 @@ ifconfig
 
 # Show disk usage
 df -h
+
+# Check permissions
+ls -l
+```
 ```
 ## 📝 Overview
 The **Linux Shells** room introduces learners to using **Linux command-line interfaces (shells)**, including **Bash**, for system administration and security tasks.  
@@ -88,9 +92,3 @@ This room provides a foundation for navigating the Linux file system, managing p
 ## 💡 Notes
 - This room is highly relevant for **SOC analysts and blue team professionals**.  
 - Recommended to combine with **Windows Command Line** and **Windows Fundamentals** rooms for full cross-platform endpoint security knowledge.
-
-# Check permissions
-ls -l
-```
-
-
